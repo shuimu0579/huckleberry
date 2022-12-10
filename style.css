@@ -23,10 +23,10 @@ h2 {
 
 .title{
   font-weight: 800;
-  font-size: 32px;
+  font-size: 2rem;
   line-height: 120%;
-  margin-top:96px;
-  margin-bottom:48px;
+  margin-top:6rem;
+  margin-bottom:3rem;
 }
 
 .intro-chunk {
