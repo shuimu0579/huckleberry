@@ -11,7 +11,7 @@ body {
 
 /* Add styles here! */
 
-h2 {
+h1, h2 {
   margin:0
 }
 
@@ -24,21 +24,21 @@ h2 {
 .title{
   font-weight: 800;
   font-size: 2rem;
-  line-height: 120%;
+  line-height: 1.2;
   margin-top:6rem;
   margin-bottom:3rem;
 }
 
 .intro-chunk {
-  padding-left: 1.5rem;
-  padding-right:1.5rem;
+  padding-left: 24px;
+  padding-right:24px;
 }
 
 .intro-chunk p{
-  max-width: 26rem;
+  max-width: 415px;
   font-weight: 400;
   font-size: 1.25rem;
-  line-height: 150%;
+  line-height: 1.5;
 }
 
 .intro-chunk p strong{
@@ -49,24 +49,24 @@ main{
   width:100%;
   margin-top: 4rem;
   border-top: solid 8px hsla(0, 0%, 60%, 1);
-  padding-top: 4rem;
-  padding-bottom: 3.625rem;
+  padding-top: 64px;
+  padding-bottom: 64px;
   background: hsla(0, 0%, 40%, 1);
 }
 
 .card{
   background: hsla(0, 0%, 100%, 1);
   border-bottom: solid 8px hsla(0, 0%, 60%, 1);
-  padding:0.5rem 1.5rem;
+  padding: 8px 24px;
 }
 
 .indented-heading{
   width: fit-content;
-  padding: 1rem 2rem;
+  padding: 16px 32px;
   color: hsla(0, 0%, 0%, 1);
   background-color: hsla(45, 100%, 50%, 1);
   border-bottom: solid 8px hsla(45, 100%, 40%, 1);
-  margin-left: -2rem;
+  margin-left: -32px;
 }
 
 
